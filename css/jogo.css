@@ -1,0 +1,62 @@
+#btnVermelho{  
+    background-color: var(--vermelho);
+    border-radius: 100% 0 0 0;
+}
+
+#btnAzul{
+    background-color: var(--azul);
+    border-radius: 0 100% 0 0;
+}
+
+#btnAmarelo{
+    background-color: var(--amarelo);
+    border-radius: 0 0 0 100%;
+}
+
+#btnVerde{
+    background-color: var(--verde);
+    border-radius: 0 0 100% 0;
+}
+
+.btnColorido{
+    width: 27vh;
+    height: 27vh;
+    display: inline-block;
+    filter: brightness(0.7);
+    z-index: -1;
+    cursor: pointer;
+}
+
+#container{
+    margin: auto;
+    width: 56vh;
+    z-index: -1;
+}
+
+#containerCentral{
+    border-radius: 100%;
+    width: 24vh;
+    height: 24vh;
+    position: fixed;
+    left: calc(50vw - 12vh);
+    top: 40vh;
+    z-index: 0;
+    background-color: var(--cinza-claro);
+}
+
+#btnCentral{
+    width: 22vh;
+    height: 22vh;
+    background-color: #252323;
+    border-radius: 100%;
+    z-index: 1;
+    position: fixed;
+    left: calc(50vw - 11vh);
+    top: 41vh;
+    font-size: 2vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cinza-claro)
+}
